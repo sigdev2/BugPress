@@ -2,4 +2,4 @@
 
 Игра. Позволяет избавиться от багов !
 
-[Play](http(s)://sigdev2.github.io/bugpress)
+[Play](https://sigdev2.github.io/BugPress/index.html)
