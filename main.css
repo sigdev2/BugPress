@@ -1,0 +1,162 @@
+/* Copyright МИНА License 2002-2018 */
+
+body
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 640px;
+    height: 400px;
+    background: url('./img/back.png') no-repeat;
+    /*-moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;*/
+}
+
+div, span
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+a
+{
+   /*todo: color*/
+   text-decoration: none
+}
+
+a:hover
+{
+    /*todo: color*/
+}
+
+.bug
+{
+    width: 80px;
+    height: 28px;
+    position: absolute;
+}
+
+.bug1_lr
+{
+    background: url('./img/bug1_lr.png') no-repeat;
+}
+
+.bug1_rl
+{
+    background: url('./img/bug1_rl.png') no-repeat;
+}
+
+.bug2_lr
+{
+    background: url('./img/bug2_lr.png') no-repeat;
+}
+
+.bug2_rl
+{
+    background: url('./img/bug2_rl.png') no-repeat;
+}
+
+.bug2_rl
+{
+    background: url('./img/bug2_rl.png') no-repeat;
+}
+
+.bug_press_lr
+{
+    background: url('./img/bug_press_lr.png') no-repeat;
+}
+
+.bug_press_rl
+{
+    background: url('./img/bug_press_rl.png') no-repeat;
+}
+
+#leng
+{
+    width: 80px;
+    position: absolute;
+    left: 260px;
+    z-index: 90;
+}
+
+#shirt
+{
+    background: black;
+    width: 55px;
+    height: 0px;
+    margin-left: 22px;
+    z-index: 90;
+}
+
+#bot
+{
+    background: url('./img/leng.png') center bottom no-repeat;
+    width: 80px;
+    height: 80px;
+    z-index: 90;
+    cursor: pointer;
+}
+
+#bugs
+{
+    position: relative;
+    top: 335px;
+}
+
+#showsett
+{
+    text-align: center;
+    background: url('./img/green.png') center bottom no-repeat;
+    position: absolute;
+    left: 600px;
+    top: 58px;
+    width: 20px;
+    height: 61px;
+    cursor: pointer;
+    line-height:6px;
+    font-size: 10px;
+    padding-top: 19px;
+}
+
+#showabout
+{
+    text-align: center;
+    background: url('./img/blue.png') center bottom no-repeat;
+    position: absolute;
+    left: 536px;
+    top: 58px;
+    width: 20px;
+    height: 61px;
+    cursor: pointer;
+    line-height:6px;
+    font-size: 10px;
+    padding-top: 19px;
+}
+
+#start
+{
+    text-align: center;
+    background: url('./img/red.png') center bottom no-repeat;
+    position: absolute;
+    left: 480px;
+    top: 58px;
+    width: 20px;
+    height: 61px;
+    cursor: pointer;
+    line-height:8px;
+    font-size: 12px;
+    padding-top: 19px;
+}
+
+#settings, #about, #you_win
+{
+    text-align: center;
+    border: 4px double black;
+    padding: 5px 5px 5px;
+    margin: 5px 5px 5px;
+    background: #eaeaea;
+    display: none;
+    z-index: 100;
+    position: absolute;
+}
